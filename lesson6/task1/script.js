@@ -3,7 +3,7 @@ const user = {
 	age: "30",
 	residence: "Bolgaria",
 	userInfo: () => {
-		console.log(`${user.firstName} , ${user.age}, ${user.residence}`);
+		console.log(`Привіт ${user.firstName}, тобі ${user.age},ти проживаєш у ${user.residence}`);
 	},
 };
 user.userInfo ();
