@@ -11,4 +11,3 @@ function numerical(acc, items) {
 	console.log(sum);
 }
 numerical();
-console.log(sum);
