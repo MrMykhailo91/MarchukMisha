@@ -1,0 +1,7 @@
+.my-text {
+    color: red;
+}
+
+.my-text.active-color {
+    color: green;
+}
