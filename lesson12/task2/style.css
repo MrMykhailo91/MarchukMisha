@@ -1,0 +1,21 @@
+   body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 100px;
+        background: #f5f5f5;
+    }
+
+    button {
+        width: 140px;
+        height: 60px;
+        margin: 10px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .red { background: crimson; }
+    .blue { background: royalblue; }
+    .green { background: seagreen; }

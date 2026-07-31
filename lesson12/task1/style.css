@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    background: #ffffff;
+}
+
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+#save {
+    background: blue;
+}
+
+#go {
+    background: green;
+}
+
+button:hover {
+    opacity: 0.8;
+}
