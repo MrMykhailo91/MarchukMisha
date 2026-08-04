@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+    background-color: silver;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+button {
+    height: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.message {
+    height: 80px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+h1 {
+    color: brown;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+h2 {
+    color: azure;
+    font-size: 18px;
+    font-weight: 1000;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    min-height: 18px;
+}
+
+input.error-input,
+textarea.error-input {
+    border: 2px solid red;
+}
