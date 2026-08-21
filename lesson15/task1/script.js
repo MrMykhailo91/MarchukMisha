@@ -1,7 +1,7 @@
 const form = document.querySelector(".js--form");
 const input = document.querySelector(".js--form__input");
 const todosWrapper = document.querySelector(".js--todos-wrapper");
-console.log(form);
+
 let todos = JSON.parse(localStorage.getItem("todos")) || [];
 
 function saveTodos() {
