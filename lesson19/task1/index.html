@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="weather-square">
+        <div class="left-side">
+            <ul>
+                <li class="date-day" id="dateDay">Jun 13, 2015 - Sat</li>
+                <li id="alarmInfo" class="alarm-item">
+                    <svg class="time-icon icon">
+                        <use href="/task1/icons/alarm-clock.svg"></use>
+                    </svg>
+                    <span>SUN 07:00 AM</span>
+
+                    <svg class="battery-icon icon">
+                        <use href="/task1/icons/battery-outline.svg"></use>
+                    </svg>
+                    <span id="batteryInfo"></span>
+                    <span class="real-time" id="realTime">03:00 PM</span>
+                </li>
+                <li id="humidity">Humidity: 57%</li>
+                <li id="pressure">Pressure: 1015 hPa</li>
+                <li class="wind" id="wind">Wind: 14 km/h SSE</li>
+            </ul>
+        </div>
+        <div class="right-side">
+            <ul>
+                <li class="weather-main-li"></li>
+                <li class="weather-icon" id="weatherIcon">⛅</li>
+                <li class="temp" id="temp">30°C</li>
+                <li class="feels-like" id="feelsLike">Feels Like: 32°C</li>
+                <li class="condition" id="condition">Partly Cloudy</li>
+                <li class="update">
+                    <span id="dateInfo">Lun 13</span>
+                    <span id="timeInfo">11:02 PM</span>
+                    <span class="update-box">
+                        <span class="update-icon">&#128472;</span>
+                        <span id="lastUpdate" class="lastUpdate"></span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

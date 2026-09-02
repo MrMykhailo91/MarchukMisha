@@ -1,0 +1,128 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg, #72edf2, #5151e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.weather-square {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    width: 500px;
+    display: flex;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.left-side,
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-side {
+    padding-right: 15px;
+}
+
+.right-side {
+    margin-left: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.date-day {
+    font-size: 32px;
+}
+
+.real-time {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+}
+
+.wind {
+    margin-top: 10px;
+}
+
+.weather-icon {
+    font-size: 80px;
+}
+
+.temp {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.condition {
+    margin: 10px 0;
+}
+
+.weather-icon,
+.temp,
+.feels-like,
+.condition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.update-box {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.time-icon {
+    width: 13px;
+    height: 13px;
+    padding-right: 5px;
+}
+
+.battery-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.update {
+    display: flex;
+    align-items: center;
+}
+
+.update-icon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-size: 24px;
+    height: 34px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.update-icon.rotate {
+    animation: rotateAnimation 1s linear;
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
